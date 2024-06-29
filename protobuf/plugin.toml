@@ -8,7 +8,7 @@ git-url = "https://github.com/protocolbuffers/protobuf"
 download-file = "protoc-{version}-linux-{arch}.zip"
 
 [install]
-download-url = "https://github.com/protocolbuffers/protobuf/v{version}/{download_file}"
+download-url = "https://github.com/protocolbuffers/protobuf/releases/download/v{version}/{download_file}"
 
 [install.arch]
 x86 = "386"
