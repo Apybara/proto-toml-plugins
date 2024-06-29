@@ -1,0 +1,15 @@
+name = "Protocol Buffers"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/protocolbuffers/protobuf"
+
+[platform.linux]
+download-file = "protoc-{version}-linux-{arch}.zip"
+
+[install]
+download-url = "https://github.com/protocolbuffers/protobuf/v{version}/{download_file}"
+
+[install.arch]
+x86 = "386"
+x86_64 = "x86_64"
