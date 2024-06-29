@@ -5,10 +5,10 @@ type = "cli"
 git-url = "https://github.com/protocolbuffers/protobuf"
 
 [platform.linux]
-download-file = "protoc-{version}-linux-{arch}.zip"
+download-file = "protoc-27.2-linux-{arch}.zip"
 
 [install]
-download-url = "https://github.com/protocolbuffers/protobuf/releases/download/v{version}/{download_file}"
+download-url = "https://github.com/protocolbuffers/protobuf/releases/download/v27.2/{download_file}"
 
 [install.arch]
 x86 = "386"
