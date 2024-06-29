@@ -13,3 +13,6 @@ download-url = "https://github.com/protocolbuffers/protobuf/releases/download/v2
 [install.arch]
 x86 = "386"
 x86_64 = "x86_64"
+
+[install.primary]
+exe-path = "bin/protoc"
