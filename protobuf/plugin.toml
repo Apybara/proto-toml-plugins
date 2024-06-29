@@ -1,4 +1,4 @@
-name = "Protocol Buffers"
+name = "protobuf"
 type = "cli"
 
 [resolve]
