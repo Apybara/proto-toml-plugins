@@ -1,0 +1,14 @@
+name = "sqlc"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/sqlc-dev/sqlc"
+
+[platform.linux]
+download-file = "sqlc_{version}_linux_{arch}.zip"
+
+[install]
+download-url = "https://github.com/sqlc-dev/sqlc/releases/download/v{version}/{download_file}"
+
+[install.arch]
+x86_64 = "amd64"
