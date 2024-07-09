@@ -5,7 +5,7 @@ type = "cli"
 git-url = "https://github.com/grpc-ecosystem/grpc-gateway"
 
 [platform.linux]
-download-file = "protoc-gen-grpc-gateway-{version}-linux-{arch}"
+download-file = "protoc-gen-grpc-gateway-v{version}-linux-{arch}"
 
 [install]
 download-url = "https://github.com/grpc-ecosystem/grpc-gateway/releases/download/v{version}/{download_file}"
