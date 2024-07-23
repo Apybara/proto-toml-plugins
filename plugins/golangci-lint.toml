@@ -2,7 +2,7 @@ name = "golangci-lint"
 type = "cli"
 
 [resolve]
-git-url = "https://github.com/protocolbuffers/protobuf-go"
+git-url = "https://github.com/golangci/golangci-lint"
 
 [platform.linux]
 download-file = "golangci-lint-{version}-linux-{arch}.tar.gz"
