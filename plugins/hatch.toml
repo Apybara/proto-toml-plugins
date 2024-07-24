@@ -1,0 +1,11 @@
+name = "hatch"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/pypa/hatch"
+
+[platform.linux]
+download-file = "hatch-{arch}-unknown-linux-gnu.tar.gz"
+
+[install]
+download-url = "https://github.com/pypa/hatch/releases/download/hatch-v{version}/{download_file}"
