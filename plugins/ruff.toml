@@ -1,0 +1,14 @@
+name = "ruff"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/astral-sh/ruff"
+
+[platform.linux]
+download-file = "ruff-{version}-{arch}-unknown-linux-gnu.tar.gz"
+
+[install]
+download-url = "https://github.com/astral-sh/ruff/releases/download/v{version}/{download_file}"
+
+[install.primary]
+exe-path = "ruff-{arch}-unknown-linux-gnu/ruff"
