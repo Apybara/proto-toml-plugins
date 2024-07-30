@@ -11,4 +11,4 @@ download-file = "ruff-{arch}-unknown-linux-gnu.tar.gz"
 download-url = "https://github.com/astral-sh/ruff/releases/download/{version}/{download_file}"
 
 [install.primary]
-exe-path = "ruff-{arch}-unknown-linux-gnu/ruff"
+exe-path = "ruff-x86_64-unknown-linux-gnu/ruff"
