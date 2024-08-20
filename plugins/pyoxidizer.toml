@@ -1,3 +1,7 @@
+# A TOML plugin for proto:
+# https://moonrepo.dev/docs/proto/plugins#toml-plugin
+# FIXME: Only support version 0.24.0 on Linux
+
 name = "pyoxidizer"
 type = "cli"
 
