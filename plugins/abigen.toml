@@ -14,5 +14,9 @@ download-file = "geth-alltools-linux-{arch}-1.14.8-a9523b64.tar.gz"
 [install]
 download-url = "https://gethstore.blob.core.windows.net/builds/geth-alltools-linux-{arch}-1.14.8-a9523b64.tar.gz"
 
+[install.arch]
+x86 = "386"
+x86_64 = "amd64"
+
 [install.primary]
 exe-path = "geth-alltools-linux-{arch}-1.14.8-a9523b64/abigen"
