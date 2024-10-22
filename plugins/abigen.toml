@@ -10,9 +10,14 @@ git-url = "https://github.com/ethereum/go-ethereum/"
 
 [platform.linux]
 download-file = "geth-alltools-linux-amd64-1.14.8-a9523b64.tar.gz"
+exe-path = "geth-alltools-linux-amd64-1.14.8-a9523b64/abigen"
+
+[platform.macos]
+download-file = "geth-alltools-darwin-{arch}-1.14.8-a9523b64.tar.gz"
+exe-path = "geth-alltools-darwin-arm64-1.14.8-a9523b64/abigen"
 
 [install]
-download-url = "https://gethstore.blob.core.windows.net/builds/geth-alltools-linux-amd64-1.14.8-a9523b64.tar.gz"
+download-url = "https://gethstore.blob.core.windows.net/builds/{download_file}"
 
-[install.primary]
-exe-path = "geth-alltools-linux-amd64-1.14.8-a9523b64/abigen"
+[install.arch]
+arm64 = "arm64"
